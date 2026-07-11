@@ -27,7 +27,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen lg:h-screen lg:flex bg-gradient-to-br from-slate-950 via-slate-900 to-black text-white">
+    <div className="min-h-screen lg:h-screen lg:flex bg-linear-to-br from-slate-950 via-slate-900 to-black text-white">
 
       {/* Left Section */}
 
@@ -91,7 +91,7 @@ export default function App() {
           py-3
           rounded-xl
           font-semibold
-          bg-gradient-to-r
+          bg-linear-to-r
           from-blue-600
           to-indigo-600
           hover:from-indigo-600
@@ -183,7 +183,7 @@ export default function App() {
 
                   <div className="flex-1 overflow-auto p-3 scrollbar-none">
 
-                    <p className="text-sm leading-6 text-slate-300 break-words">
+                    <p className="text-sm leading-6 text-slate-300 wrap-break-words">
                       {elem.detail}
                     </p>
 
